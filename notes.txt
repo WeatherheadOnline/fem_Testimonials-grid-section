@@ -11,6 +11,7 @@ Added _sizing, for spacing variables and text-preset rules.
 https://sass-lang.com/documentation/at-rules/use/
 
 Added HTML structure: Looked at the design file and sketched out the structure I wanted for each testimonial card:
+
       <div class="box">
         <div class="box-author-wrapper">
           <div class="box-author-image"></div>
@@ -24,3 +25,14 @@ Added HTML structure: Looked at the design file and sketched out the structure I
       </div>
 
 These cards all follow the same formula. -> use JS to compile them from an array of testimonial objects.
+
+Started by building out an array of testimonial objects. The five pieces of info that needed to be filled in for each one were: the person's name; the note under their name; file path for their profile pic; first quote; and longer quote. Used these as keys.
+* de-tabbed the provided text to avoid extra spaces being added
+
+Tested out printing each person's name to the screen. Then worked on getting the JS to print out the rest of the needed HTML. Built a template literal string based on the HTML template, incorporating the info from the array (by iterating over the array).
+- Yay! it builds cards correctly! Now for styling.
+- At first, the pics weren't showing up. Then I remembered to add inline HTML background-images in the template literal in the JS.
+
+Added all new HTML class names from JS into SASS.
+
+
