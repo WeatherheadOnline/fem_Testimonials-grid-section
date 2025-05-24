@@ -1,0 +1,18 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(263, 55%, 52%);
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */

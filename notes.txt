@@ -1,0 +1,26 @@
+5/23/25
+
+Let's get some practice at SASS. How about learning to incorporate multiple .sass files. 
+
+I used @import but it warned that it was getting deprecated. I was directed to:
+https://sass-lang.com/documentation/breaking-changes/import/
+
+Added _attribution.sass, to isolate the attribution styles. 
+Added _colors.sass, so that I can use the same color variables in both main.sass and _attribution.sass.
+Added _sizing, for spacing variables and text-preset rules.
+https://sass-lang.com/documentation/at-rules/use/
+
+Added HTML structure: Looked at the design file and sketched out the structure I wanted for each testimonial card:
+      <div class="box">
+        <div class="box-author-wrapper">
+          <div class="box-author-image"></div>
+          <div class="box-author-text">
+            <div class="box-author-name"></div>
+            <div class="box-author-note"></div>
+          </div>
+        </div>
+        <div class="box-quote-main"></div>
+        <div class="box-quote-expound"></div>
+      </div>
+
+These cards all follow the same formula. -> use JS to compile them from an array of testimonial objects.
