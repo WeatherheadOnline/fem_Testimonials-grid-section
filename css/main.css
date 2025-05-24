@@ -56,7 +56,7 @@ html {
 }
 
 .attribution a {
-  color: hsl(264, 82%, 80%);
+  color: hsl(263, 55%, 52%);
 }
 
 .box:nth-child(1) {
@@ -101,9 +101,11 @@ body {
     grid-template: repeat(4, 1fr)/1fr 1fr;
   }
 }
-@media (hover: hover) and (min-width: 1200px) {
+@media (hover: hover) and (min-width: 1170px) {
   #testimonials {
+    width: 116rem;
     grid-template: 1fr 1fr/repeat(4, 1fr);
+    row-gap: 2.4rem;
   }
 }
 
@@ -121,7 +123,7 @@ body {
     grid-area: 1/1/2/3;
   }
 }
-@media (hover: hover) and (min-width: 1200px) {
+@media (hover: hover) and (min-width: 1170px) {
   .box:nth-child(1) {
     grid-area: 1/1/2/3;
   }
@@ -132,7 +134,7 @@ body {
     grid-area: 2/1/3/2;
   }
 }
-@media (hover: hover) and (min-width: 1200px) {
+@media (hover: hover) and (min-width: 1170px) {
   .box:nth-child(2) {
     grid-area: 1/3/2/4;
   }
@@ -143,7 +145,7 @@ body {
     grid-area: 2/2/3/3;
   }
 }
-@media (hover: hover) and (min-width: 1200px) {
+@media (hover: hover) and (min-width: 1170px) {
   .box:nth-child(3) {
     grid-area: 2/1/3/2;
   }
@@ -154,7 +156,7 @@ body {
     grid-area: 3/1/4/3;
   }
 }
-@media (hover: hover) and (min-width: 1200px) {
+@media (hover: hover) and (min-width: 1170px) {
   .box:nth-child(4) {
     grid-area: 2/2/3/4;
   }
@@ -165,7 +167,7 @@ body {
     grid-area: 4/1/5/3;
   }
 }
-@media (hover: hover) and (min-width: 1200px) {
+@media (hover: hover) and (min-width: 1170px) {
   .box:nth-child(5) {
     grid-area: 1/4/3/5;
   }

@@ -51,3 +51,5 @@ Added the drop-shadow based on the figures in the Figma file (except I used the 
 
 For mobile screens, I'm sizing the font based on viewport width -> also sizing the image in vw units so that it resizes with the text next to it.
 
+Now that styles are done for mobile, I'm doing the wider desktop screen layout next. Verified that media queries are working for font sizes. Set a fixed width for the main wrapper ("testimonials"). Adjusted the row-gap size based on the Figma file.
+
