@@ -204,10 +204,10 @@ body {
   border-radius: 50%;
   background-size: cover;
 }
-@media (hover) {
+@media (hover), (min-width: 700px) {
   .box-author-image {
-    height: 2.8rem;
-    width: 2.8rem;
+    height: 3rem;
+    width: 3rem;
   }
 }
 

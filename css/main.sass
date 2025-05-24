@@ -89,9 +89,9 @@ body
     width: 8.5vw
     border-radius: 50%
     background-size: cover
-    @media (hover)
-        height: 2.8rem
-        width: 2.8rem
+    @media (hover), (min-width: styles.$breakpoint-tablet)
+        height: 3rem
+        width: 3rem
 
 .box:nth-child(1) .box-author-image, .box:nth-child(4) .box-author-image
     border: 2px solid styles.$purple-300
