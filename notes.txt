@@ -16,12 +16,12 @@ Added HTML structure: Looked at the design file and sketched out the structure I
         <div class="box-author-wrapper">
           <div class="box-author-image"></div>
           <div class="box-author-text">
-            <div class="box-author-name"></div>
-            <div class="box-author-note"></div>
+            <div class="box-author-name"><p></p></div>
+            <div class="box-author-note"><p></p></div>
           </div>
         </div>
-        <div class="box-quote-main"></div>
-        <div class="box-quote-expound"></div>
+        <div class="box-quote-main"><p></p></div>
+        <div class="box-quote-expound"><p></p></div>
       </div>
 
 These cards all follow the same formula. -> use JS to compile them from an array of testimonial objects.
@@ -35,4 +35,4 @@ Tested out printing each person's name to the screen. Then worked on getting the
 
 Added all new HTML class names from JS into SASS.
 
-
+Added theme classes for text and background colors

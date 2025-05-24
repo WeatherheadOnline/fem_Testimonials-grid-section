@@ -1,14 +1,62 @@
+html {
+  font-size: 10px;
+}
+
+.box-quote-first {
+  font-size: 2rem;
+  line-height: 120%;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
+.box-author-name {
+  font-size: 1.3rem;
+  line-height: 110%;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+.box-quote-expound {
+  font-size: 1.3rem;
+  line-height: 140%;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+.box-author-note {
+  font-size: 1.1rem;
+  line-height: 110%;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 
 .attribution a {
-  color: hsl(263, 55%, 52%);
+  color: hsl(264, 82%, 80%);
 }
 
-html {
-  font-size: 10px;
+.box:nth-child(1) {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(263, 55%, 52%);
+}
+
+.box:nth-child(2) {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(217, 19%, 35%);
+}
+
+.box:nth-child(5), .box:nth-child(3) {
+  color: hsl(217, 19%, 35%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.box:nth-child(4) {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 7%);
 }
 
 body {
@@ -23,8 +71,10 @@ body {
 }
 
 .box-author-image {
-  height: 50px;
-  width: 50px;
+  height: 2.8rem;
+  width: 2.8rem;
+  border-radius: 50%;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=main.css.map */

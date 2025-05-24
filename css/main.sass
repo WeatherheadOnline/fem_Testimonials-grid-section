@@ -1,6 +1,18 @@
-@use "colors"
 @use "attribution"
-@use "sizing"
+@use "index.sass" as styles
+
+%theme-1  
+  color: styles.$white
+  background-color: styles.$purple-500
+%theme-2  
+  color: styles.$white
+  background-color: styles.$grey-500
+%theme-3 
+  color: styles.$grey-500
+  background-color: styles.$white
+%theme-4  
+  color: styles.$white
+  background-color: styles.$black
 
 body
   font-family: "Barlow Semi Condensed", sans-serif
@@ -11,21 +23,38 @@ body
   background-color: #AAEEFF
   margin: 10px
 
+.box:nth-child(1) 
+  @extend %theme-1
+.box:nth-child(2) 
+  @extend %theme-2
+.box:nth-child(3) 
+  @extend %theme-3
+.box:nth-child(4) 
+  @extend %theme-4
+.box:nth-child(5) 
+  @extend %theme-3
+
 .box-author-wrapper
 
 .box-author-image
-  height: 50px
-  width: 50px
+  height: 2.8rem
+  width: 2.8rem
+  border-radius: 50%
+  background-size: cover
   
 
 .box-author-text
   
 .box-author-name
+  @extend %text-preset-2
 
 .box-author-note
+  @extend %text-preset-4
 
 .box-quote-first
+  @extend %text-preset-1
 
 .box-quote-expound
+  @extend %text-preset-3
 
 

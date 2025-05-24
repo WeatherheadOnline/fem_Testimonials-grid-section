@@ -17,12 +17,12 @@ function buildCard(object) {
             <div class="box-author-wrapper">
                 <div class="box-author-image" style="background-image: url('images/${object.image}')"></div>
                 <div class="box-author-text">
-                    <div class="box-author-name">${object.name}</div>
-                    <div class="box-author-note">${object.note}</div>
+                    <div class="box-author-name"><p>${object.name}</p></div>
+                    <div class="box-author-note"><p>${object.note}</p></div>
                 </div>
             </div>
-            <div class="box-quote-first">${object.quoteFirst}</div>
-            <div class="box-quote-expound">${object.expound}</div>
+            <div class="box-quote-first"><p>${object.quoteFirst}<p></div>
+            <div class="box-quote-expound"><p>${object.expound}<p></div>
         </div>
     `;  
     testimonialsWrapper.innerHTML += box;         
