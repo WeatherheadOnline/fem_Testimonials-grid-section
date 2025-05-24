@@ -36,3 +36,18 @@ Tested out printing each person's name to the screen. Then worked on getting the
 Added all new HTML class names from JS into SASS.
 
 Added theme classes for text and background colors
+
+~~ 5/24/25 ~~
+
+Figured out how to implement @use and @forward
+  https://www.youtube.com/watch?v=oXaMki9PfLs
+Applied theme colors and text-presets to boxes
+
+https://css-tricks.com/snippets/css/complete-guide-grid/
+Added grid layouts for mobile, tablet and desktop.
+Added elements' padding and margin based on Figma file. For spacing between elements within each card, I set all text elements to `margin: 0` and used flex gaps for spacing.
+
+Added the drop-shadow based on the figures in the Figma file (except I used the given color at 50% opacity instead of their 25% because that made the page look much closer to the design).
+
+For mobile screens, I'm sizing the font based on viewport width -> also sizing the image in vw units so that it resizes with the text next to it.
+

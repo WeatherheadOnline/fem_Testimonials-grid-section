@@ -22,7 +22,7 @@ function buildCard(object) {
                 </div>
             </div>
             <div class="box-quote-first"><p>${object.quoteFirst}<p></div>
-            <div class="box-quote-expound"><p>${object.expound}<p></div>
+            <div class="box-quote-expound"><p>${object.quoteExpound}<p></div>
         </div>
     `;  
     testimonialsWrapper.innerHTML += box;         
