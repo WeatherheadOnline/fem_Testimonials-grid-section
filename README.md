@@ -26,7 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![https://github.com/WeatherheadOnline/fem_Testimonials-grid-section/blob/main/project_screenshot_iPad_Pro_tablet.png](https://github.com/WeatherheadOnline/fem_Testimonials-grid-section/blob/main/project_screenshot_iPad_Pro_tablet.png)
+![https://github.com/WeatherheadOnline/fem_Testimonials-grid-section/blob/main/project_screenshot_desktop_wide_hover.png](https://github.com/WeatherheadOnline/fem_Testimonials-grid-section/blob/main/project_screenshot_desktop_wide_hover.png)
+
+[https://github.com/WeatherheadOnline/fem_Testimonials-grid-section/blob/main/project_screenshot_iPad_Pro_tablet.png](https://github.com/WeatherheadOnline/fem_Testimonials-grid-section/blob/main/project_screenshot_iPad_Pro_tablet.png)
 
 ### Links
 
