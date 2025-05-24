@@ -53,3 +53,4 @@ For mobile screens, I'm sizing the font based on viewport width -> also sizing t
 
 Now that styles are done for mobile, I'm doing the wider desktop screen layout next. Verified that media queries are working for font sizes. Set a fixed width for the main wrapper ("testimonials"). Adjusted the row-gap size based on the Figma file.
 
+Added hover effects :) When the user hovers over a card, the card grows and changes position slightly (`.box:hover`), and the profile image grows disproportionately more (`.box:hover img`).

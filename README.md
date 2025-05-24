@@ -14,9 +14,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -28,20 +26,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![https://github.com/WeatherheadOnline/fem_Testimonials-grid-section/blob/main/project_screenshot_iPad_Pro_tablet.png](https://github.com/WeatherheadOnline/fem_Testimonials-grid-section/blob/main/project_screenshot_iPad_Pro_tablet.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://weatherheadonline.github.io/fem_Testimonials-grid-section](https://your-live-site-url.com)
 
 ## My process
 
@@ -52,59 +41,28 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [SASS](https://sass-lang.com/) - Stylistically Awesome StyleSheets
+- JavaScript
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I expanded on what I learned about SASS in the previous challenge. This time, I learned how to use partials, ie multiple SASS files, and how to have them pass variables and presets to each other.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+I also use this opportunity to practice array iteration in Javascript. In this challenge, there is a repeating pattern of cards that each contain the same elements styled in the same way (except for colors). I built an array of testimonial objects, containing all the information that's unique to each card. When the page loads, the script adds the needed HTML for each card, inserting content from the array.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I aim to get more practice with SASS to deepen my understanding.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [https://sass-lang.com/documentation/breaking-changes/import/](https://sass-lang.com/documentation/breaking-changes/import/) - When I tried to use the SASS at-rule `@import`, the terminal warned that `@import` is deprecated. This SASS documentation helped point me in the right direction and find out what alternative to use (`@use` and `@forward`).
+- [https://sass-lang.com/documentation/at-rules/use/](https://sass-lang.com/documentation/at-rules/use/) - This is SASS' documentation on `@use`.
+- [https://www.youtube.com/watch?v=oXaMki9PfLs](https://www.youtube.com/watch?v=oXaMki9PfLs) - I was struggling to understand how to use `@forward` in combination with `@use`. This video was very helpful.
+- [https://css-tricks.com/snippets/css/complete-guide-grid/](https://css-tricks.com/snippets/css/complete-guide-grid/) - I'm a little rusty on CSS Grid, and this handy reference helped me find the properties and shorthands I was looking for.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - [www.weatherheadonline.com](www.WeatherheadOnline.com)
+- Frontend Mentor - [@WeatherheadOnline](https://www.frontendmentor.io/profile/WeatherheadOnline)
+- LinkedIn - [@eddieweatherhead](https://www.linkedin.com/in/eddieweatherhead/)
