@@ -1,3 +1,23 @@
+.box:nth-child(1) {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(263, 55%, 52%);
+}
+
+.box:nth-child(2) {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(217, 19%, 35%);
+}
+
+.box:nth-child(3), .box:nth-child(5) {
+  color: hsl(217, 19%, 35%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.box:nth-child(4) {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 7%);
+}
+
 html {
   font-size: 10px;
 }
@@ -8,7 +28,7 @@ html {
   font-weight: 600;
   font-size: 6vw;
 }
-@media (hover) {
+@media (hover), (hover: none) and (min-width: 700px) {
   .box-quote-first {
     font-size: 2rem;
   }
@@ -20,7 +40,7 @@ html {
   font-weight: 500;
   font-size: 3.9vw;
 }
-@media (hover) {
+@media (hover), (hover: none) and (min-width: 700px) {
   .box-author-name {
     font-size: 1.3rem;
   }
@@ -32,7 +52,7 @@ html {
   font-weight: 500;
   font-size: 3.8vw;
 }
-@media (hover) {
+@media (hover), (hover: none) and (min-width: 700px) {
   .box-quote-expound {
     font-size: 1.3rem;
   }
@@ -44,7 +64,7 @@ html {
   font-weight: 500;
   font-size: 3.3vw;
 }
-@media (hover) {
+@media (hover), (hover: none) and (min-width: 700px) {
   .box-author-note {
     font-size: 1.1rem;
   }
@@ -57,26 +77,6 @@ html {
 
 .attribution a {
   color: hsl(263, 55%, 52%);
-}
-
-.box:nth-child(1) {
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(263, 55%, 52%);
-}
-
-.box:nth-child(2) {
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(217, 19%, 35%);
-}
-
-.box:nth-child(5), .box:nth-child(3) {
-  color: hsl(217, 19%, 35%);
-  background-color: hsl(0, 0%, 100%);
-}
-
-.box:nth-child(4) {
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(0, 0%, 7%);
 }
 
 * {
@@ -96,9 +96,16 @@ body {
   display: grid;
   gap: 3.2rem;
 }
+@media (hover) {
+  #testimonials {
+    width: 40rem;
+  }
+}
 @media (min-width: 700px) {
   #testimonials {
     grid-template: repeat(4, 1fr)/1fr 1fr;
+    width: 65rem;
+    margin-top: 8.3rem;
   }
 }
 @media (hover: hover) and (min-width: 1170px) {
