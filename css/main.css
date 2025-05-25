@@ -113,8 +113,7 @@ body {
     width: 116rem;
     grid-template: 1fr 1fr/repeat(4, 1fr);
     row-gap: 2.4rem;
-    margin-top: 0;
-    transform: translateY(calc(50vh - 51%));
+    margin-top: 23rem;
   }
 }
 
