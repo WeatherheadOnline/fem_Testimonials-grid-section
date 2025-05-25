@@ -85,8 +85,8 @@ html {
 
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: hsl(300, 5.3%, 96.3%);
   min-height: 100vh;
-  background-color: #F6F5F6;
   margin: 0;
 }
 
@@ -118,7 +118,7 @@ body {
 }
 
 .box {
-  box-shadow: 4rem 6rem 5rem 0 rgba(72, 85, 106, 0.27);
+  box-shadow: 4rem 6rem 5rem 0 hsl(0, 0%, 81%);
   border-radius: 0.7rem;
   padding: 3.2rem;
   display: flex;
