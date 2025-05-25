@@ -136,7 +136,7 @@ body {
     grid-area: 1/1/2/3;
     background-image: url(../images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
-    background-position: top right 30%;
+    background-position: top right 6rem;
   }
 }
 @media (hover: hover) and (min-width: 1170px) {
