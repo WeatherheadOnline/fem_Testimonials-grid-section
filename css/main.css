@@ -119,7 +119,7 @@ body {
 }
 
 .box {
-  box-shadow: 4rem 9rem 3.8rem rgba(72, 85, 106, 0.2666666667);
+  box-shadow: 4rem 6rem 5rem 0 rgba(72, 85, 106, 0.27);
   border-radius: 0.7rem;
   padding: 3.2rem;
   display: flex;
